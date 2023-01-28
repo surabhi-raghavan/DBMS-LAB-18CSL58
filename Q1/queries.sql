@@ -50,3 +50,5 @@ create view Borrow as
 select B.Book_ID, B.Book_title, BC.no_of_copies
 from book B, book_copies BC
 where  B.Book_id=BC.Book_id;
+
+select * from Borrow; 
